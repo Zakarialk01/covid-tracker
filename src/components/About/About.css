@@ -1,0 +1,98 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 3rem;
+  margin-top: 2rem;
+  text-align: center;
+  background-color: rgb(97, 191, 97);
+  border: 2px black solid;
+  border-radius: 20px;
+
+  color: white;
+}
+
+.h1 {
+  color: green;
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 2rem;
+}
+.h2 {
+  color: grey;
+  font-size: 4rem;
+  font-weight: 400;
+}
+.p {
+  color: white;
+  margin-top: 10px;
+  color: green;
+  font-weight: 700;
+}
+
+.a{
+ color:green;
+ font-size: 20px;
+
+}
+.a:hover {
+  font-size: 22px;
+  color: green;
+}
+.fa-github{
+  background: black;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: green;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  text-decoration: none;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  text-decoration: none;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size:20px;
+  text-align: center;
+
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+  text-decoration: none;
+  color: white;
+} 
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 50%;
+  text-decoration: none;
+}
+.about{
+  display: flex;
+  justify-content: space-evenly;
+flex-flow: row;
+
+  border:  3px solid green;
+  padding: 10px;
+  border-radius: 25px;
+}
+.about img{
+  border-radius: 50%;
+}
+@media only screen and (max-width: 899px) {
+ .about {
+flex-wrap: wrap;
+  }
+}
