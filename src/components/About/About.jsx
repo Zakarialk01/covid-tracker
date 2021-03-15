@@ -33,10 +33,26 @@ function About() {
       <p></p>
 
       <div className="social">
-        <a href="#" class="fa fa-github"></a>
-        <a href="#" class="fa fa-whatsapp"></a>
-        <a href="#" class="fa fa-google"></a>
-        <a href="#" class="fa fa-linkedin"></a>
+        <a
+          href="https://github.com/Zakarialoukili/"
+          target="_blank"
+          class="fa fa-github"
+        ></a>
+        <a
+          href="https://www.instagram.com/zakarialoukili/"
+          class="fa fa-instagram"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.facebook.com/zakaria.loukili.14/"
+          class="fa fa-facebook"
+          target="_blank"
+        ></a>
+        <a
+          href="https://www.linkedin.com/feed/?trk=slideshare-signup"
+          class="fa fa-linkedin"
+          target="_blank"
+        ></a>
       </div>
     </div>
   );
